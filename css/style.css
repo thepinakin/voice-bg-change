@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf) format('truetype');
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Source Sans Pro";
+  background-color: #ffffff;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins";
+    line-height: 1.5;
+    /*background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);*/
+    padding: 20px;
+}
+body > h1,
+body > h2,
+body > p {
+  text-align: center;
+}
+body > h1 {
+  margin: 1em 0;
+}
+h2 b {
+  color: #DA4453;
+}
+.body--grapefruit h2 b {
+  color: #ffce54;
+}
+h1,
+h2,
+p,
+.list-palete,
+.output {
+  position: relative;
+  z-index: 999;
+}
+.output {
+  display: block;
+  min-width: 200px;
+  max-width: 600px;
+  min-height: 40px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  -webkit-border-radius: 10px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 10px;
+  -moz-background-clip: padding;
+  border-radius: 10px;
+  background-clip: padding-box;
+  font-size: 2em;
+  text-align: center;
+  border: 0 none;
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,.3);
+}
+.list-palete {
+  width: auto!important;
+  margin: 0 auto;
+  width: 1200px !important;
+}
+.list-palete > .palete {
+  width: 180px;
+  margin: 2.5%;
+  float: left;
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,.3);
+}
+.palete-color__alternative {
+  font-size: 14px;
+  text-align: center;
+}
+.body--grapefruit {
+  background-color: #ED5565;
+}
+.body--bittersweet {
+  background-color: #FC6E51;
+}
+.body--sunflower {
+  background-color: #FFCE54;
+}
+.body--grass {
+  background-color: #A0D468;
+}
+.body--mint {
+  background-color: #48CFAD;
+}
+.body--acqua {
+  background-color: #4fc1e9;
+}
+.body--blue-jeans {
+  background-color: #5D9CEC;
+}
+.body--lavender_ {
+  background-color: #AC92EC;
+}
+.body--pink-rose {
+  background-color: #EC87C0;
+}
+.body--light-gray {
+  background-color: #F5F7FA;
+}
+.body--medium-gray {
+  background-color: #CCD1D9;
+}
+.body--dark-gray {
+  background-color: #656D78;
+}
