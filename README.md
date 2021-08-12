@@ -1,7 +1,7 @@
 # voice-bg-change
 
 
-**Backgroung change with voice command**
+**Background change with voice command**
 
 **Voice search function**
 
