@@ -1,7 +1,7 @@
 # voice-bg-change
 
 
-**Voice to text convertor**
+**Backgroung change with voice command**
 
 **Voice search function**
 
@@ -11,8 +11,8 @@
 
 **Single page application**
 
-<img width="961" alt="t-1" src="https://user-images.githubusercontent.com/33729320/129275869-c5224789-a927-42a6-93b7-fcc9fe71478f.png">
+<img width="1405" alt="b-1" src="https://user-images.githubusercontent.com/33729320/129276231-b7b03767-dfd3-4c06-97be-12b244c9b1c1.png">
 
 
 **Demo Link**
-https://thepinakin.com/projects/voice-to-text/
+https://thepinakin.com/projects/voice-bg-change/
